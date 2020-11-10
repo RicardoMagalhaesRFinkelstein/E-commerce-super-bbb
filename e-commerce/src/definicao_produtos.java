@@ -4,6 +4,12 @@ public class definicao_produtos {
 		
 		String produtos[] = {"leite","biscoito","Veja","revista","cloro","refrigerante","parafuso","lâmpada","papel-toalha","papel higiênico"};
 		String unidadeProdutos[] = {"litro","pacote","unidade","unidade","litro","unidade","pacote","unidade","pacote","pacote"};
+		String codigo [] = new String[10];
+		
+		for(int indice = 0; indice < 10 ; indice++)
+		{
+			codigo[indice] = "SBB-0" + (indice + 1);
+		}
 		
 		
 	}
