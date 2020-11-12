@@ -13,7 +13,7 @@ public class repetir_cliente {
 	do
 	{
 		
-		System.out.println("\n Maçã");
+		
 		System.out.println("Próximo cliente S ou N");
 		proximoCliente = leia.next().toUpperCase().charAt(0);
 		//Repetir todo o processo de compra, desde a seleção até o pagamento
