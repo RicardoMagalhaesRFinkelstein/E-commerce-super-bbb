@@ -1,5 +1,8 @@
+
 import java.util.Scanner;
-public class Superbbb {
+
+public class superbba {
+
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		
@@ -137,7 +140,8 @@ public class Superbbb {
 			parcela = valorCarrinho/3;
 			System.out.printf("\n PREÇO FINAL: R$%.2f com suaves parcelas de R$%.2f dos quais R$%.2f é imposto\n", valorCarrinho,parcela, imposto );
 		}
-		valorCarrinho = 0;
+		
+		valorCarrinho=0;
 		System.out.println("Próximo cliente S ou N");
 		proximoCliente = leia.next().toUpperCase().charAt(0);
 		
